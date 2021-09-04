@@ -2,15 +2,15 @@ package main
 
 import (
 	"flag"
-	"github.com/jth445600/proxypool/pkg/geoIp"
+	"github.com/bh-qt/proxypool/pkg/geoIp"
 	_ "net/http/pprof"
 	"os"
 
-	"github.com/jth445600/proxypool/api"
-	"github.com/jth445600/proxypool/internal/app"
-	"github.com/jth445600/proxypool/internal/cron"
-	"github.com/jth445600/proxypool/internal/database"
-	"github.com/jth445600/proxypool/log"
+	"github.com/bh-qt/proxypool/api"
+	"github.com/bh-qt/proxypool/internal/app"
+	"github.com/bh-qt/proxypool/internal/cron"
+	"github.com/bh-qt/proxypool/internal/database"
+	"github.com/bh-qt/proxypool/log"
 )
 
 var configFilePath = ""
