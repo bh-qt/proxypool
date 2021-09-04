@@ -2,14 +2,14 @@ package app
 
 import (
 	"errors"
-	"github.com/jth445600/proxypool/log"
+	"github.com/bh-qt/proxypool/log"
 
-	"github.com/jth445600/proxypool/internal/cache"
+	"github.com/bh-qt/proxypool/internal/cache"
 
 	"github.com/ghodss/yaml"
 
-	"github.com/jth445600/proxypool/config"
-	"github.com/jth445600/proxypool/pkg/getter"
+	"github.com/bh-qt/proxypool/config"
+	"github.com/bh-qt/proxypool/pkg/getter"
 )
 
 var Getters = make([]getter.Getter, 0)

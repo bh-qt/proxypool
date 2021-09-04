@@ -4,8 +4,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/jth445600/proxypool/pkg/proxy"
-	"github.com/jth445600/proxypool/pkg/tool"
+	"github.com/bh-qt/proxypool/pkg/proxy"
+	"github.com/bh-qt/proxypool/pkg/tool"
 )
 
 // functions for getters

@@ -2,14 +2,14 @@ package app
 
 import (
 	"fmt"
-	C "github.com/jth445600/proxypool/config"
-	"github.com/jth445600/proxypool/internal/cache"
-	"github.com/jth445600/proxypool/internal/database"
-	"github.com/jth445600/proxypool/log"
-	"github.com/jth445600/proxypool/pkg/geoIp"
-	"github.com/jth445600/proxypool/pkg/healthcheck"
-	"github.com/jth445600/proxypool/pkg/provider"
-	"github.com/jth445600/proxypool/pkg/proxy"
+	C "github.com/bh-qt/proxypool/config"
+	"github.com/bh-qt/proxypool/internal/cache"
+	"github.com/bh-qt/proxypool/internal/database"
+	"github.com/bh-qt/proxypool/log"
+	"github.com/bh-qt/proxypool/pkg/geoIp"
+	"github.com/bh-qt/proxypool/pkg/healthcheck"
+	"github.com/bh-qt/proxypool/pkg/provider"
+	"github.com/bh-qt/proxypool/pkg/proxy"
 	"sync"
 	"time"
 )

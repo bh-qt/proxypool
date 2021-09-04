@@ -2,12 +2,12 @@ package getter
 
 import (
 	"encoding/json"
-	"github.com/jth445600/proxypool/log"
+	"github.com/bh-qt/proxypool/log"
 	"io/ioutil"
 	"sync"
 
-	"github.com/jth445600/proxypool/pkg/proxy"
-	"github.com/jth445600/proxypool/pkg/tool"
+	"github.com/bh-qt/proxypool/pkg/proxy"
+	"github.com/bh-qt/proxypool/pkg/tool"
 )
 
 func init() {

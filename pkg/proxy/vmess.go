@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jth445600/proxypool/pkg/tool"
+	"github.com/bh-qt/proxypool/pkg/tool"
 )
 
 var (

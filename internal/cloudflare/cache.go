@@ -4,7 +4,7 @@ package cloudflare
 // 	"fmt"
 // 	"log"
 
-// 	"github.com/jth445600/proxypool/config"
+// 	"github.com/bh-qt/proxypool/config"
 // 	"github.com/cloudflare/cloudflare-go"
 // )
 

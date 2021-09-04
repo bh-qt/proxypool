@@ -2,13 +2,13 @@ package provider
 
 import (
 	"fmt"
-	"github.com/jth445600/proxypool/log"
-	"github.com/jth445600/proxypool/pkg/healthcheck"
+	"github.com/bh-qt/proxypool/log"
+	"github.com/bh-qt/proxypool/pkg/healthcheck"
 	"math"
 	"strconv"
 	"strings"
 
-	"github.com/jth445600/proxypool/pkg/proxy"
+	"github.com/bh-qt/proxypool/pkg/proxy"
 )
 
 type Provider interface {

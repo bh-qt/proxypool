@@ -3,9 +3,9 @@ package provider
 import (
 	"strings"
 
-	"github.com/jth445600/proxypool/pkg/tool"
+	"github.com/bh-qt/proxypool/pkg/tool"
 
-	"github.com/jth445600/proxypool/pkg/proxy"
+	"github.com/bh-qt/proxypool/pkg/proxy"
 )
 
 // Surge provides functions that make proxies support clash client

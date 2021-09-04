@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	"github.com/Dreamacro/clash/adapters/outbound"
-	"github.com/jth445600/proxypool/log"
-	"github.com/jth445600/proxypool/pkg/proxy"
+	"github.com/bh-qt/proxypool/log"
+	"github.com/bh-qt/proxypool/pkg/proxy"
 	"github.com/ivpusic/grpool"
 )
 

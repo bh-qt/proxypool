@@ -1,8 +1,8 @@
 package api
 
 import (
-	binhtml "github.com/jth445600/proxypool/internal/bindata/html"
-	"github.com/jth445600/proxypool/log"
+	binhtml "github.com/bh-qt/proxypool/internal/bindata/html"
+	"github.com/bh-qt/proxypool/log"
 	"html/template"
 	"net/http"
 	"os"
@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jth445600/proxypool/config"
-	appcache "github.com/jth445600/proxypool/internal/cache"
-	"github.com/jth445600/proxypool/pkg/provider"
+	"github.com/bh-qt/proxypool/config"
+	appcache "github.com/bh-qt/proxypool/internal/cache"
+	"github.com/bh-qt/proxypool/pkg/provider"
 	"github.com/gin-contrib/cache"
 	"github.com/gin-contrib/cache/persistence"
 	"github.com/gin-gonic/gin"
